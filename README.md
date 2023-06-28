@@ -1,5 +1,7 @@
 # WebDev Starter
 
+![webdev-starter](https://socialify.git.ci/devbytemehedi/webdev-starter/image?font=KoHo&forks=1&issues=1&name=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
