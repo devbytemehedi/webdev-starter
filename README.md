@@ -15,7 +15,7 @@
 - [Contributing](#🤝-contributing)
 - [Acknowledgements](#🙏-acknowledgements)
 
-## 🌟 Introduction
+## Introduction 🌟
 
 WebDev Starter is a boilerplate project for frontend web development, providing a structured folder hierarchy and automation with Gulp. It is designed to help beginners and intermediate frontend developers kickstart their projects.
 
