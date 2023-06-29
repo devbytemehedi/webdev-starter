@@ -2,24 +2,24 @@
 
 ## Table of Contents
 
-- [Introduction](#🌟-introduction)
-- [Features](#✨-features)
-- [Folder Structure](#📂-folder-structure)
-- [Getting Started](#🚀-getting-started)
-  - [Prerequisites](#⚙️-prerequisites)
-  - [Installation](#🛠️-installation)
-- [Usage](#📝-usage)
-  - [Development Mode](#🚧-development-mode)
-  - [Build Process](#🏗️-build-process)
-- [License](#📄-license)
-- [Contributing](#🤝-contributing)
-- [Acknowledgements](#🙏-acknowledgements)
+- [Introduction](#intro)
+- [Features](#ft)
+- [Folder Structure](#fst)
+- [Getting Started](#gs)
+  - [Prerequisites](#prt)
+  - [Installation](#ins)
+- [Usage](#usg)
+  - [Development Mode](#dev)
+  - [Build Process](#bd)
+- [License](#ls)
+- [Contributing](#cntrb)
+- [Acknowledgements](#ack)
 
-## Introduction 🌟
+<h2 id="intro"> 🌟 Introduction</h2>
 
 WebDev Starter is a boilerplate project for frontend web development, providing a structured folder hierarchy and automation with Gulp. It is designed to help beginners and intermediate frontend developers kickstart their projects.
 
-## ✨ Features
+<h2 id="ft">✨ Features</h2>
 
 - 🚀 Easy setup and 🔧 configuration
 - 📁 Well-organized folder structure for efficient 💼 project management
@@ -35,7 +35,7 @@ WebDev Starter is a boilerplate project for frontend web development, providing 
 - 📖 Comprehensive documentation for easy reference and usage
 - 📜 Licensed under the GPL 3.0 for open-source collaboration
 
-## 📂 Folder Structure
+<h2 id="fst"> 📂 Folder Structure </h2>
 
 Here is the folder structure of the project:
 
@@ -78,26 +78,41 @@ webdev-starter           (Project Name)
 ```
 
 <!-- ## Customization -->
+<div id="gs"><h2>🚀 Getting Started </h2></div>
 
-## 🚀 Getting Started
+<div id="prt"><h3>⚙️ Prerequisites </h3></div>
 
-### ⚙️ Prerequisites
+Before getting started with the project, make sure you have the following **prerequisites** installed on your system:
 
-Before getting started with the project, make sure you have the following prerequisites installed on your system:
+[![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/nodejs/node.git) [![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/npm/cli.git) [![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
-[![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/nodejs/node.git) [![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/npm/cli.git) [![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Windows Terminal](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)](https://aka.ms/terminal)
+In this documentation we are using Windows Operating System :
 
-Follow the steps below to install them:
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://aka.ms/windows11)
 
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://aka.ms/windows11) [![Terminal](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)](https://github.com/microsoft/terminal.git) [![Powershell](https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell.git)
+Open Terminal or Powershell As Admin
+
+[![Windows Terminal](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)](https://aka.ms/terminal) [![Powershell](https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell.git)
+
+This command will install the latest available versions of [NodeJS](https://nodejs.org/) and [Git](https://git-scm.com/) using [Winget](https://github.com/microsoft/winget-cli.git).
 
 ```pwsh
 winget install --id OpenJS.NodeJS Git.Git
 ```
 
-This command will install the latest available versions of [NodeJS](https://nodejs.org/) and [Git](https://git-scm.com/) using [Winget](https://github.com/microsoft/winget-cli.git).
+<details>
+  <summary>Winget ?</summary>
 
-### 🛠️ Installation
+[Winget](https://github.com/microsoft/winget-cli.git) comes with Windows by deafult, to check type `winget -v` to get installed version.
+
+If not type this to install:
+
+```pwsh
+Set-ExecutionPolicy RemoteSigned -Scope Process -Force; iex "& { $(irm https://aka.ms/winget-cli) }"; Set-ExecutionPolicy <original_execution_policy> -Scope Process -Force
+```
+
+</details>
+<div id="ins"><h3>🛠️ Installation</h3></div>
 
 **Clone or [Download](https://github.com/devbytemehedi/webdev-starter/archive/refs/heads/main.zip) this repository :**
 
@@ -117,9 +132,9 @@ cd webdev-starter
 npm install
 ```
 
-## 📝 Usage
+<div id="usg"><h2>📝 Usage</h2></div>
 
-### 🚧 Development Mode
+<div id="dev"><h3>🚧 Development Mode</h3></div>
 
 During development, you can run the project in development mode with live reloading
 Start the development server :
@@ -130,7 +145,8 @@ npm run dev
 
 This will compile the SCSS to CSS, concatenate JavaScript files, optimize images, and launch a local development server. Any changes you make to the source files will automatically trigger a reload in the browser.
 
-### 🏗️ Build Process
+<div id="bd"><h3>🏗️ Build Process
+</h3></div>
 
 The project uses Gulp for automation. The build process includes:
 
@@ -148,15 +164,15 @@ npm run build
 
 This will compile and minify the SCSS and JavaScript files, optimize images, minify HTML files, and copy static assets to the `dist` directory. The final production-ready files will be available in the `dist` folder.
 
-## 📄 License
+<div id="ls"><h2>📄 License</h2></div>
 
 This project is licensed under the GPL 3.0 License. See the [LICENSE](./LICENSE) file for details.
 
-## 🤝 Contributing
+<div id="cntrb"><h2>🤝 Contributing</h2></div>
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests to suggest improvements or add new features.
 
-## 🙏 Acknowledgements
+<div id="ack"><h2>🙏 Acknowledgements</h2></div>
 
 - [Gulp](https://gulpjs.com/) - A popular task runner for web development.
 - [Sass](https://sass-lang.com/) - A CSS preprocessor that enhances the styling workflow.
