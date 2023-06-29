@@ -17,7 +17,7 @@
 
 <h2 id="intro"> 🌟 Introduction</h2>
 
-🚀 **webdev-starter** : A structured boilerplate project for frontend developers ⚡️🎨. Unleash your creativity with an organized folder structure and best practices, igniting web development projects like never before! 💪💻 Start your journey now and witness the magic unfold. 🌟🔥
+🚀 **WebDev Starter** : A structured boilerplate project for frontend developers ⚡️🎨. Unleash your creativity with an organized folder structure and best practices, igniting web development projects like never before! 💪💻 Start your journey now and witness the magic unfold. 🌟🔥
 
 <h2 id="ft">✨ Features</h2>
 
